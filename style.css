@@ -6,7 +6,23 @@
 body{
     background-image: linear-gradient(180deg , #120505 0%, #402A32 60%, #732f3B 100%);
     background-attachment: 100vh;
+    background-size: cover;
     margin: 0;
+}
+
+header{
+    background-color: #040208;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+header img{
+    max-width: 90%;
+    height: auto;
+    margin: 0;
+    
 }
 
 main{
@@ -16,7 +32,7 @@ main{
     width: 600px;
     padding: 30px;
     margin: 50px auto;
-    border: apx solid rgba(174, 191, 190, 0.1);
+    border: 1px solid rgba(174, 191, 190, 0.1);
     
 }
 
