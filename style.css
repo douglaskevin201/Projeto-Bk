@@ -56,6 +56,7 @@ h1{
 }
 h2{
     color: #E63946;
+    text-shadow: 0 0 10PX rgba(140, 53, 61, 0.8);
     margin-top: 60px;
     border-bottom: 1px solid #8c353d;
     padding-bottom: 10px;
