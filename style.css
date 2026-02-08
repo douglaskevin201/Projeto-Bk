@@ -55,11 +55,11 @@ h1{
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7) ;
 }
 h2{
+    color: #E63946;
     margin-top: 60px;
     border-bottom: 1px solid #8c353d;
     padding-bottom: 10px;
     font-family: 'Orbitron', sans-serif;
-    
     filter: brightness(1.5);
 }
 
