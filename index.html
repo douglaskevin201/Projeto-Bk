@@ -6,41 +6,206 @@
     <title>Projeto Bk'</title>
     <style>
 
+        body{
+            background-color: black;
+        }
+
+        header{
+            background-color: black;
+            color: red;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+
+        header > h1{
+            display: inline-block;
+            padding: 5px;
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            
+        }
+
+
+        h3{
+            display: inline-block;
+            padding: 5px;
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+            background-color: rgba(0, 0, 0, 0.5);
+            text-shadow: 1px 1px 0px black;
+        }
+
+        section{
+            margin: 0;
+            padding: 0;
+            font-size: 1.5em;
+            line-height: 2em;
+            padding-top: 10vh;
+            padding-left: 30px;
+            padding-bottom: 10vh;
+            
+        }
+
+        section.castelos{
+            background-image: url(imagens-p/Castelo_Ruinas.png);
+            color: white;
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+        
+        section.castelos > p{
+            display: inline-block;
+            padding: 3px;
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+            background-color: rgba(0, 0, 0, 0.5);
+            text-shadow: 1px 1px 0px black;
+        }
+
+        section.gigantes{
+            background-image: url(imagens-p/BK_Gigantes.png);
+            color: black;
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+
+        section.gigantes > p{
+            display: inline-block;
+            padding: 3px;
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+            background-color: rgba(0, 0, 0, 0.5);
+            text-shadow: 1px 1px 0px black;
+        }
+
+        section.lider{
+            background-image: url(imagens-p/lider.png);
+            color: white;
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: bottom center;
+        }
+
+        section.lider > p{
+            display: inline-block;
+            padding: 3px;
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+            background-color: rgba(0, 0, 0, 0.5);
+            text-shadow: 1px 1px 0px black;
+        }
+
+        section.dlre{
+            background-image: url(imagens-p/dlre.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+
+        section.dlre > p{
+            display: inline-block;
+            padding: 5px;
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+            background-color: rgba(0, 0, 0, 0.5);
+            text-shadow: 1px 1px 0px black;
+
+        }
+
+        section.produto{
+            background-image: url(imagens-p/produto.png);
+            background-attachment: fixed; 
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+
+        }
+
+        section.produto > p{
+            display: inline-block;
+            padding: 5px;
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+            background-color: rgba(0, 0, 0, 0.5);
+            text-shadow: 1px 1px 0px black;
+        }
+
+        section.icarus{
+            
+            background-image: url(imagens-p/icarus.png);
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: left top;
+        }
+
+        section.icarus > p{
+            display: inline-block;
+            padding: 5px;
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+            background-color: rgba(0, 0, 0, 0.5);
+            text-shadow: 1px 1px 0px black;
+
+        }
+
     </style>
 </head>
 <body>
     <header>
         <h1>Projeto Bk'</h1>
     </header>
-    <article class="castelos">
+    <section class="castelos">
         <h3>Castelos & Ruínas (2016)</h3>
         <p>O marco inicial. Um álbum denso que explora as dualidades da vida urbana, conquistas e perdas. É onde BK' estabelece sua métrica impecável e rimas introspectivas sobre o topo e o abismo.</p>
 
-    </article>
-    <article class="gigantes">
+    </section>
+    <section class="gigantes">
         <h3>Gigantes (2018)</h3>
         <p>Uma expansão sonora e temática. Aqui o artista reflete sobre o peso da fama, a responsabilidade de ser uma referência e a luta para manter a essência enquanto se torna um "gigante" na cena.</p>
 
-    </article>
-    <article class="lider">
+    </section>
+    <section class="lider">
         <h3>O Líder em Movimento (2020)</h3>
         <p>Um disco político e necessário. Inspirado por líderes negros históricos, o álbum é um manifesto de resistência, estratégia e autoconhecimento, focado na emancipação coletiva.</p>
 
-    </article>
-    <article class="dlre">
+    </section>
+    <section class="dlre">
         <h3>Diamantes, Lagrimas e Rostos para Esquecer (2024)</h3>
         <p>Um mergulho nas emoções e vulnerabilidades. Neste EP, BK' explora as cicatrizes do sucesso e as complexidades do amor, unindo rimas afiadas a uma sonoridade mais melódica e intimista.</p>
 
-    </article>
-    <article class="produto">
+    </section>
+    <section class="produto">
         <h3>Produto do Ambiente</h3>
         <p>Uma afirmação de identidade. Reflete como o meio em que o artista cresceu moldou sua visão de mundo, transformando as dificuldades e a realidade da metrópole em arte e sobrevivência.</p>
 
-    </article>
-    <article class="icarus">
+    </section>
+    <section class="icarus">
         <h3>ICARUS (2022)</h3>
-        <p>Uma obra de arte visual e sonora. Utilizando o mito de Ícaro como metáfora, o álbum questiona o desejo humano de voar alto demais e as consequências dessa ambição na alma.</p>
+        <p>Uma obra de arte visual e sonora. Utilizando o mito de Ícaro como metáfora, o álbum questiona o desejo humano de voar alto demais e as consequências dessa ambição na alma. veja mais <a href="https://douglaskevin201.github.io/Projeto-Bk/cor03.html" target="_blank">> AQUI <</a> </p>
 
-    </article>
+    </section>
 </body>
 </html>
