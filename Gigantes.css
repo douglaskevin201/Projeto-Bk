@@ -63,6 +63,6 @@ footer > p, a{
     color: white;
 }
 
-a :hover{
-    text-decoration: ;
+footer a :hover{
+    text-decoration: underline;
 }
