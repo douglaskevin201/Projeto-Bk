@@ -1,6 +1,6 @@
 # Projeto BK' - Experiência Imersiva (Álbum ICARUS) 
 
-Este projeto é um site temático desenvolvido para explorar as fronteiras do **HTML5** e **CSS3**. O objetivo foi criar uma interface que refletisse a estética visual do álbum "ICARUS", do rapper BK', focando em design imersivo e performance.
+Este projeto é um site temático desenvolvido para explorar as fronteiras do **HTML5** e **CSS3**. O objetivo foi criar uma interface que refletisse a estética visual dos álbuns do rapper BK', focando em design imersivo e performance.
 
 ## Tecnologias Utilizadas
 
@@ -18,7 +18,7 @@ Este projeto é um site temático desenvolvido para explorar as fronteiras do **
 ##  Demonstração
 
 Você pode visualizar o projeto online aqui: 
-[Link para o seu GitHub Pages aqui]
+https://douglaskevin201.github.io/Projeto-Bk/
 
 ##  Contexto
 
