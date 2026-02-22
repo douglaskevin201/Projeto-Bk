@@ -15,6 +15,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
+    
 }
 
 main{
@@ -51,18 +52,42 @@ p{
     font-style: normal;
 }
 
-footer{
-    margin: 1;
-    background-color: #272C64;
-    padding: 5px;
+footer {
+  background-color: #272064;
+  padding: 5px 0; /* Isso define 10px de altura em cima e embaixo do texto */
+  width: 100%;
+  
+  clear: both; 
+  text-align: center;
+}
+    
+footer p{  
+    margin: 2px 0; /* Margem mínima entre as linhas de texto */
+    font-size: 0.9em;
+    color: white;
+    font-family: "Syne Mono", monospace;
     
 }
 
-footer > p, a{
-    text-decoration: none;
+footer a{
     color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    
 }
 
-footer a :hover{
-    text-decoration: underline;
+a img{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1000;
+    background-image: linear-gradient(#AC7438, #BF984E, #D9A84E, #272C64);
+    background-attachment: fixed;
+    border-radius: 50%;
+    padding: 5px;
 }
+
+a img:hover{
+    transform: scale(0.9);
+} 
