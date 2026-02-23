@@ -3,6 +3,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
 
 *{
     font-family: Arial, Helvetica, sans-serif;
@@ -11,9 +14,10 @@
 header{
     text-align: center;
     padding: 15px 0;
-    background-color: rgba(252, 116, 116, 0.966);
-    backdrop-filter: blur(10px);
-    margin-bottom: 10px;
+    margin: 2px 0;
+    border: 2px solid #442B2F;
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px #442B2F;
 }
 
 body{
@@ -42,10 +46,66 @@ h1{
     font-optical-sizing: auto;
     font-weight: 400px;
     font-style: normal;
-    text-shadow: 2px 2px 15px #151926;
+    text-shadow: 2px 2px 15px white;
     font-size: 2.5em;
 }
 
+h2{
+    text-align: center;
+    color: white;
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    text-shadow: 0 0 20px rgba(140, 53, 61, 0.8);
+}
 
+p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+
+footer{
+    margin: 1px 0;
+    border: 2px solid #424242;
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px #757575;
+
+}
+
+footer a{
+    color: #757575;
+    text-shadow: 2px 2px 15px #424242;
+}
+
+footer a:hover{
+    text-transform: uppercase;
+}
+
+a img{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1000;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+a img:hover{
+    transform: scale(1.2);
+    
+}
 
 
