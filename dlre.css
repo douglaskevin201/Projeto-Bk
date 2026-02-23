@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    text-align: center;
+    padding: 15px 0;
+    background-color: rgba(252, 116, 116, 0.966);
+    backdrop-filter: blur(10px);
+    margin-bottom: 10px;
+}
+
+body{
+    background-image: url(imagens-p/dlre.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    margin: 0;
+    min-height: 100vh;
+}
+
+main{
+    background-image: linear-gradient(#1D161D, #0E1118, #100F15, #151926);
+     background-attachment: fixed;
+     width: 90%;
+     max-width: 600px;
+     padding: 20px;
+     margin: 30px auto;
+     border: 3px solid #442B2F;
+     border-radius: 15px;
+}
+
+h1{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    text-shadow: 2px 2px 15px #151926;
+    font-size: 2.5em;
+}
+
+
+
+
