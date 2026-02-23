@@ -2,6 +2,8 @@
 
 Este projeto é um site temático desenvolvido para explorar as fronteiras do **HTML5** e **CSS3**. O objetivo foi criar uma interface que refletisse a estética visual dos álbuns do rapper BK', focando em design imersivo e performance.
 
+O menu principal ainda não esta finalizado.
+
 ## Tecnologias Utilizadas
 
 * **HTML5 Semântico:** Estruturação focada em acessibilidade e SEO.

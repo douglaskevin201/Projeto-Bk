@@ -13,6 +13,18 @@
     text-align: center;
 }
 
+
+header p{
+    color: black;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 15px black;
+    font-size: 1.3em;
+    text-decoration: underline;
+}
+
 body{
     background-image: url(imagens-p/lider.png);
     background-repeat: no-repeat;
@@ -62,3 +74,8 @@ p{
     letter-spacing: 2px;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
