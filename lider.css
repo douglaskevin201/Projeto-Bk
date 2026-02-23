@@ -5,6 +5,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
+
 *{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -51,3 +53,12 @@ h2{
     font-size: 1.8em;
     letter-spacing: 8px;
 }
+
+p{
+    font-family: "Big Shoulders" sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+
