@@ -14,6 +14,14 @@
 }
 
 
+header{
+    background-color: rgba(255, 255, 255, 0.103);
+    padding: 1px 0;
+    backdrop-filter: blur(4px);
+    margin-bottom: -24px;
+
+}
+
 header p{
     color: black;
     font-family: "Bebas Neue", sans-serif;
@@ -47,6 +55,16 @@ main{
     border-radius: 20px;
 }
 
+iframe{
+    width: 100%;
+    max-width: 560px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+    aspect-ratio: 16 / 9;
+
+}
+
 h1{
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
@@ -72,10 +90,26 @@ p{
     font-weight: 400;
     font-style: normal;
     letter-spacing: 2px;
+    
 }
 
 a{
     text-decoration: none;
     color: black;
     font-weight: bolder;
+}
+
+footer{
+    background-color: rgb(#060606, #424242);
+    margin: 2px 0;
+    border: 2px solid #424242;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px #757575;
+
+
+}
+
+footer a{
+    color: #757575;
+    text-shadow: 2px 2px 15px #424242;
 }
