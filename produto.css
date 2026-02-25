@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(imagens-p/produto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+}
+
+main{
+    background-image: radial-gradient(#730202, #BF0404, #450902);
+
+}

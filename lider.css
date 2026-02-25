@@ -28,9 +28,9 @@ header p{
     font-weight: 400;
     font-style: normal;
     letter-spacing: 3px;
-    text-shadow: 2px 2px 15px black;
-    font-size: 1.3em;
-    text-decoration: underline;
+    text-shadow: 2px 2px 15px black;  
+    text-decoration: none;
+    text-align: center;
 }
 
 body{
@@ -78,7 +78,7 @@ h2{
     font-family: "Anton SC", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #B8B8B8;
+    color: #e0e0e0;
     text-shadow: 2px 2px 15px;
     font-size: 1.8em;
     letter-spacing: 8px;
@@ -90,6 +90,7 @@ p{
     font-weight: 400;
     font-style: normal;
     letter-spacing: 2px;
+    text-align: justify;
     
 }
 
@@ -106,6 +107,12 @@ footer{
     border-radius: 10px;
     box-shadow: 2px 2px 15px #757575;
 
+
+}
+
+
+footer p{
+    text-align: center;
 
 }
 
