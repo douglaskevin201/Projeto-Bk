@@ -1,14 +1,136 @@
 @charset "UTF-8";
 
+
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+header{
+    background-color: rgba(255, 255, 255, 0.103);
+    padding: 1px 0;
+    backdrop-filter: blur(1px);
+    margin-bottom: -10px;
+    margin-top: 10px;
+
+}
+
+header p{
+    text-align: center;
+    font-family: "Lacquer", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 10px #BF0404;
+}
+
+header a:hover{
+    text-transform: uppercase;
+}
+
 body{
     background-image: url(imagens-p/produto.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center top;
+    margin: 0;
+    min-height: 100vh;
 }
 
 main{
-    background-image: radial-gradient(#730202, #BF0404, #450902);
+    background-image: linear-gradient( #BF0404, #730202, #450902, #5C5E58);
+    background-attachment: fixed;
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    margin: 27px auto;
+    border: 2px solid #BF0404;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 10px #5C5E58,
+                0 0 20px #5C5E58,
+                0 0 40px #5C5E58;
+}
 
+
+iframe{
+    width: 100%;
+    max-width: 560px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+    aspect-ratio: 16 / 9;
+
+}
+
+h1{
+    font-family: "Lacquer", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 10px #BF0404;
+    font-size: 2em;
+    text-decoration: underline;
+
+}
+
+h2{
+    font-family: "Lacquer", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    text-shadow: 0 0 10px rgb(255, 255, 255),
+                 0 0 20px rgb(255, 255, 255),
+                 0 0 40px rgb(255, 255, 255);
+}
+
+p{
+    font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    letter-spacing: 3px;
+    font-size: 1.1em;
+}
+
+
+footer{
+    background-color: rgba(255, 255, 255, 0.103);
+    padding: 1px 0;
+    backdrop-filter: blur(4px);
+    margin-bottom: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+footer p{
+    text-align: center;
+}
+
+footer a:hover{
+    text-transform: uppercase;
+    transition: transform 0.3s ease;
+}
+
+body a img{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 9999;
+    width: 50px;
+    height: auto;
+    background-attachment: fixed;
+    border-radius: 50%;
+    padding: 5px;
+    transition: transform 0.3s ease;
+    
+    
+}
+
+a img:hover{
+    transform: scale(1.2);
 }
